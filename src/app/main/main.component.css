@@ -1,17 +1,24 @@
 /* //media queries or flexbox for the background width px */
-.container{
-    display:flexbox;
+
+.main{
+    display:flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    margin: 50px;
+    /* border-color: violet; */
+     background-image: url('../../desktop.svg');  
     
 }
 
-.row{
-    width:100%;
-    display:flex;
-    justify-content: center;
-    border-radius: 5px;
+.pic{
+    border-radius: 12px;
 }
 
-@media(min-width:375px) and (max-width:1440px){
-
+@media(min-width:1440px){
+    body{
+        /* background-image: url('../../desktop.svg');   */
+        background-color: tomato;
+    }
 }

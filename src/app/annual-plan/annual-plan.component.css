@@ -1,7 +1,23 @@
-.container{
-    display:flexbox
+.price{
+    height: 80px;
+    display:flex; 
+    justify-content: space-around;
+    width: 350px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    align-content: center;
 }
 
 .col1{
-    display:flex
+    
+    
+}
+
+.col2{
+    width:100px;
+    align-items: left;
+}
+
+.col3{
+    
 }
